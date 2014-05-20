@@ -3,7 +3,7 @@ Contributors: mboynes, alleyinteractive
 Tags: debug bar, debug, roles, capabilities, users, permissions
 Requires at least: 3.5
 Tested up to: 3.9
-Stable tag: 0.1.2
+Stable tag: 0.1.1
 
 A simple add-on for Debug Bar that tabulates all roles and capabilities
 
@@ -29,6 +29,9 @@ No.
 
 
 == Changelog ==
+
+= 0.1.1 =
+* CSS fix
 
 = 0.1.0 =
 * Brand new

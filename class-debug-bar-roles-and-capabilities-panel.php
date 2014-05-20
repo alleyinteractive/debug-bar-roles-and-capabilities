@@ -20,27 +20,27 @@ class Debug_Bar_Roles_And_Capabilities_Panel extends Debug_Bar_Panel {
 		$roles = array();
 		?>
 		<style type="text/css">
-		#debug-bar-roles-and-capabilities table {
+		#dbrac-output table {
 			border-top: 1px solid #aaa;
 			border-left: 1px solid #aaa;
 			border-collapse: collapse;
 			font-size: 1.1em;
 		}
-		#debug-bar-roles-and-capabilities th,
-		#debug-bar-roles-and-capabilities td {
+		#dbrac-output th,
+		#dbrac-output td {
 			padding: 5px 8px;
 			border-bottom: 1px solid #aaa;
 			border-right: 1px solid #aaa;
 		}
-		#debug-bar-roles-and-capabilities td {
+		#dbrac-output td {
 			text-align: center;
 		}
-		#debug-bar-roles-and-capabilities tbody tr:hover th,
-		#debug-bar-roles-and-capabilities tbody tr:hover td {
+		#dbrac-output tbody tr:hover th,
+		#dbrac-output tbody tr:hover td {
 			background: white;
 		}
 		</style>
-		<div id="debug-bar-roles-and-capabilities">
+		<div id="dbrac-output">
 			<table>
 				<thead>
 					<tr>

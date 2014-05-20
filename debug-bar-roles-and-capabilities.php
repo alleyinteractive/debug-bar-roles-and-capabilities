@@ -1,9 +1,9 @@
 <?php
 /*
 	Plugin Name: Debug Bar Roles and Capabilities
-	Plugin URI: http://github.com/alleyinteractive.com/debug-bar-roles-and-capabilities
+	Plugin URI: http://github.com/alleyinteractive/debug-bar-roles-and-capabilities
 	Description: A simple add-on for Debug Bar that tabulates all roles and capabilities
-	Version: 0.1.2
+	Version: 0.1.1
 	Author: Matthew Boynes
 	Author URI: http://www.alleyinteractive.com/
 */
