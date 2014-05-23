@@ -13,8 +13,8 @@ class Debug_Bar_Roles_And_Capabilities_Panel extends Debug_Bar_Panel {
 	public function render() {
 		global $wp_roles;
 		$capabilities = array();
-		foreach ( $wp_roles->roles as $role ) {
-			$capabilities = array_merge( $capabilities, $role['capabilities'] );
+		foreach ( $wp_roles->role_objects as $role ) {
+			$capabilities = array_merge( $capabilities, $role->capabilities );
 		}
 		$capabilities = array_keys( $capabilities );
 		$roles = array();
